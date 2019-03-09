@@ -1,5 +1,6 @@
 var mysql = require("mysql");
 var inquirer = require("inquirer");
+var dotenv = require("dotenv");
 
 var connection = mysql.createConnection({
     host: "localhost",
